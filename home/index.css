@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.banner{
+    width: (100% - 1px);
+    background-color: #EE5A24;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-logo{
+    height: 4rem;
+}
+.banner-cabecalho{
+    display: flex;
+}
+.banner-titulo{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+.banner-navegacao{
+    font-family: 'Poppins', sans-serif;
+    margin: 1.5rem 0 0 0;
+}
+.banner-item{
+    text-decoration: none;
+    color:black;
+    margin: .5rem;
+}
+.banner-item:hover{
+    color: hotpink;
+}
+.titulo-principal{
+    font-family: 'Poppins', sans-serif;
+    margin: 5rem 0 0 3rem;
+    font-size: 3rem;
+}
+.texto-principal{
+    font-family: 'Poppins', sans-serif;
+    margin: 2rem 1rem 0 3rem;
+    text-align: justify;
+}
+.img-principal{
+    padding: 5rem 5rem 0 25rem;
+    width: 60%;
+    height: 40rem;
+}
+.rodape{
+    background-color: #1e272e;
+    color: white;
+    height: 10rem;
+    margin-top: 3rem;
+}
+.subtitulo-rodape{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 5rem;
+}

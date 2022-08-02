@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Dot</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="../img/favicon.ico">
+</head>
+<body>
+    <header class="banner">
+        <div class="banner-cabecalho">
+            <img class="banner-logo" src="../img/favicon.ico" alt="logo">
+            <h1 class="banner-titulo">Musical Dot</h1>
+        </div>
+        <nav class="banner-navegacao">
+            <a class="banner-item" href="../home/index.html">Sobre nós</a>
+            <a class="banner-item" href="../contatos/contatos.html">Contato</a>
+            <a class="banner-item" href="../matricula/index.html">Matricule-se</a>
+        </nav>
+    </header>
+    <main class="conteudo">
+        <section class="formulario">
+            <form class="formulario" id="forms">
+                <div class="textos">
+                    <label for="nome" class="etiqueta">Insira seu nome</label><br>
+                    <input id="nome" name="Nome" type="text" class="caixaDeTexto"><br>
+                    <label for="instrumento" class="etiqueta">Insira o instrumento que você toca</label><br>
+                    <input id="instrumento" name="Instrumento" type="text" class="caixaDeTexto"><br>
+                    <p class="Radio">Insira seu nível de conhecimento</p>
+                    <input id="nivel" name="nivel" type="text" class="caixaDeTexto">
+                </div>
+                <input type="submit" class="botao" id="botao">
+            </form>
+        </section>
+        <section class="container">
+            <h2 class="titulo-container">Alunos</h2>
+            <table>
+                <tbody id="tabela-alunos">
+                    <tr class="aluno" id="primeiro-aluno">
+                        <td class="info-nome">Paulo</td>
+                        <td class="info-instrumento">Violão</td>
+                        <td class="info-nivel">Intermediario</td>
+                    </tr>
+
+                    <tr class="aluno" >
+                        <td class="info-nome">João</td>
+                        <td class="info-instrumento">Violoncelo</td>
+                        <td class="info-nivel">Basico</td>
+                    </tr>
+
+                    <tr class="aluno" >
+                        <td class="info-nome">Erica</td>
+                        <td class="info-instrumento">Guitarra</td>
+                        <td class="info-nivel">Avançado</td>
+                    </tr>
+
+                    <tr class="aluno">
+                        <td class="info-nome">Douglas</td>
+                        <td class="info-instrumento">Bateria</td>
+                        <td class="info-nivel">Basico</td>
+                    </tr>
+                    <tr class="aluno" >
+                        <td class="info-nome">Tatiana</td>
+                        <td class="info-instrumento">Bateria</td>
+                        <td class="info-nivel">Avançado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer class="rodape">
+        <h3 class="subtitulo-rodape">Conte sempre conosco!<br>Site feito por Lucas de Paula</h3>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
